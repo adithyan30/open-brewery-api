@@ -18,7 +18,7 @@ async function openBrewery(){
             console.log(name,breweryType,street,city,postal,phoneNo,websiteUrl)
 
             var parent = document.createElement('div')
-            parent.setAttribute('class','col-sm-12 ')
+            parent.setAttribute('class','card col-sm-12 ')
 
             parent.innerHTML=`
                 <div class="card-header">
